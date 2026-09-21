@@ -1,0 +1,14 @@
+#,Pillar,Detected Issue,Severity,Target File(s),Effort,Est. Traffic Impact,Fix Type
+1,09 Sitemap & Robots,Missing robots.txt (no crawler governance, no sitemap pointer),Med,"robots.txt (new)",S (<4hr),crawl-efficiency foundation,config
+2,09 Sitemap & Robots,Missing sitemap.xml,Low,"sitemap.xml (new)",S (<4hr),indexation of subpages,config
+3,10 Social & Regional,Missing Open Graph + Twitter cards (no social preview, no og:image),High,"index.html, pages/legal.html",S (<4hr),CTR on social share + Discover eligibility,metadata
+4,02 Technical SEO,Missing canonical (github.io mirror + custom domain = duplicate-hostname risk),Med,"index.html, pages/legal.html",S (<4hr),dedupes github.io vs CNAME,metadata
+5,02 Technical SEO / 17 Rich Results,No JSON-LD structured data (Organization + WebSite),Med,"index.html, pages/legal.html",S (<4hr),knowledge-panel / entity eligibility,schema
+6,01 On-Page SEO,Title 38 chars brand-first not keyword-front-loaded,Med,index.html,S (<4hr),SERP CTR,metadata
+7,01 On-Page SEO,Meta description 113 chars keyword late,Low,index.html,S (<4hr),SERP CTR,metadata
+8,01 On-Page SEO,No H2 containing target keyword (placement 4/5),Low,index.html,S (<4hr),topical relevance signal,content
+9,16 E-E-A-T,Trust pages absent or linked via self-referencing href=/ and no contact path,High,"index.html, legal.html (new)",M (1-3d),E-E-A-T / trust; YMYL finance-adjacent bar,structural
+10,12 Accessibility,#afafaf on #ffffff 2.6:1 hero caption contrast (WCAG AA fail),Med,index.html,S (<4hr),a11y + UX,metadata
+11,11 Security SEO,External links without rel=noopener noreferrer,Low,"index.html, pages/legal.html",S (<4hr),security best practice,linking
+12,05 Mobile SEO / 03 Perf,Touch targets < 44px and sticky nav covered jump anchors,Med,style.css,S (<4hr),mobile UX/INP,performance
+13,18 AI / llms.txt,No llms.txt (AI-discoverability opt-in),Low,"llms.txt (new)",S (<4hr),AI-Overview citation,config
