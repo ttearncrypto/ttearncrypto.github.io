@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="g" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#212632" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D1FF00" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#D1FF00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="#12141D"/>
+  <rect width="1200" height="900" fill="url(#g)" opacity="0.7"/>
+  <circle cx="600" cy="450" r="300" fill="url(#glow)"/>
+  <path d="M320 470h560" stroke="rgba(217,224,228,0.45)" stroke-width="3" stroke-dasharray="14 16"/>
+  <path d="M600 690l0-340M600 350l-120-120M600 350l120-120" fill="none" stroke="#D1FF00" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M440 350h-80M760 350h80" stroke="rgba(217,224,228,0.5)" stroke-width="6" stroke-linecap="round" stroke-dasharray="1 18"/>
+  <g transform="translate(600 470)">
+    <circle cx="0" cy="-120" r="42" fill="#0D0E15" stroke="#D1FF00" stroke-width="5"/>
+    <path d="M-12 -124h12l8 30h-12z" fill="none" stroke="#D1FF00" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+  <text x="48" y="836" font-family="'JetBrains Mono', monospace" font-size="26" letter-spacing="6" fill="#D1FF00">FIG.02 / ON LISTING</text>
+  <text x="48" y="870" font-family="'JetBrains Mono', monospace" font-size="16" letter-spacing="4" fill="rgba(217,224,228,0.5)">AIRDROP UPTICK</text>
+</svg>

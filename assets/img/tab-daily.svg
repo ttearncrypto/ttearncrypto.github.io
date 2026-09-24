@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="g" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#212632" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="#14171F"/>
+  <rect width="1200" height="900" fill="url(#g)" opacity="0.7"/>
+  <path d="M310 470c110-52 250-52 320 0 74 54 180 54 260 0" fill="none" stroke="rgba(217,224,228,0.35)" stroke-width="4"/>
+  <path d="M310 470c110-94 250-94 320 0 74 98 180 98 260 0" fill="none" stroke="rgba(209,255,0,0.16)" stroke-width="4"/>
+  <path d="M290 470h620" stroke="rgba(217,224,228,0.3)" stroke-width="2" stroke-dasharray="8 10"/>
+  <g transform="translate(600 470) rotate(14 0 0)">
+    <circle cx="0" cy="0" r="120" fill="#0D0E15" stroke="#D1FF00" stroke-width="5"/>
+    <circle cx="0" cy="0" r="94" fill="none" stroke="rgba(209,255,0,0.4)" stroke-width="2"/>
+    <path d="M0 56V-60" stroke="#D1FF00" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-10 -26h10l6 42h-10z" fill="#0D0E15" stroke="#D1FF00" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-7 24h16M-5 36h16" fill="none" stroke="#D1FF00" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="48" y="836" font-family="'JetBrains Mono', monospace" font-size="26" letter-spacing="6" fill="#D1FF00">FIG.01 / DAILY</text>
+  <text x="48" y="870" font-family="'JetBrains Mono', monospace" font-size="16" letter-spacing="4" fill="rgba(217,224,228,0.5)">FAUCETS DRIP</text>
+</svg>

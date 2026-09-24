@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="g" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#212632" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D1FF00" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#D1FF00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="#0D0E15"/>
+  <rect width="1200" height="900" fill="url(#g)" opacity="0.7"/>
+  <circle cx="820" cy="450" r="430" fill="url(#glow)"/>
+  <path d="M-20 700 C 260 640 420 540 620 470 C 760 420 860 400 980 360" fill="none" stroke="rgba(217,224,228,0.35)" stroke-width="3" stroke-dasharray="14 18" stroke-linecap="round"/>
+  <g transform="translate(880 280)">
+    <ellipse cx="0" cy="0" rx="110" ry="34" fill="#0D0E15" stroke="#D1FF00" stroke-width="4"/>
+    <ellipse cx="0" cy="40" rx="110" ry="34" fill="#0D0E15" stroke="#D1FF00" stroke-width="4"/>
+    <ellipse cx="0" cy="80" rx="110" ry="34" fill="#0D0E15" stroke="#D1FF00" stroke-width="4"/>
+    <rect x="-98" y="-6" width="196" height="72" fill="#0D0E15"/>
+    <circle cx="0" cy="20" r="26" fill="none" stroke="rgba(217,224,228,0.7)" stroke-width="3"/>
+    <path d="M0 6v10l8 6" fill="none" stroke="rgba(217,224,228,0.7)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <circle cx="980" cy="360" r="14" fill="#D1FF00"/>
+  <circle cx="980" cy="360" r="26" fill="none" stroke="rgba(209,255,0,0.45)" stroke-width="2"/>
+  <text x="48" y="836" font-family="'JetBrains Mono', monospace" font-size="26" letter-spacing="6" fill="#D1FF00">TTEARN / PIPELINE</text>
+  <text x="48" y="870" font-family="'JetBrains Mono', monospace" font-size="16" letter-spacing="4" fill="rgba(217,224,228,0.5)">01</text>
+</svg>

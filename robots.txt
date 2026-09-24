@@ -1,8 +1,7 @@
 User-agent: *
 Allow: /
-Disallow: /assets/
 
-# Search (indexing) — allowed
+# Search (indexing) - allowed
 User-agent: Googlebot
 Allow: /
 User-agent: Bingbot
@@ -10,21 +9,7 @@ Allow: /
 User-agent: Yandex
 Allow: /
 
-# LLM training crawlers — blocked (content policy)
-User-agent: GPTBot
-Disallow: /
-User-agent: ChatGPT-User
-Disallow: /
-User-agent: ClaudeBot
-Disallow: /
-User-agent: anthropic-ai
-Disallow: /
-User-agent: CCBot
-Disallow: /
-User-agent: meta-externalagent
-Disallow: /
-
-# LLM assistants that cite/discover content — allowed
+# LLM assistants that cite/discover content - allowed
 User-agent: Google-Extended
 Allow: /
 User-agent: OAI-SearchBot

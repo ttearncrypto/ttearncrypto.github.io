@@ -3,10 +3,15 @@ by F9XR Team (f9xr.org)
 
 
 Crypto News: 
-https://ttearncrypto.f9xr.org/thedesisikka/
+https://ttearncrypto.f9xr.org/thedesisikka
 
 F9XR's TTEarnCrypto: iCryptos Dashboards
 https://ttearncrypto.f9xr.org/dashboards
 
 Ad Network & Affiliate Program Reviews:
 https://ttearncrypto.f9xr.org/Earning24x7
+
+
+I want you to implement, a animation when user scrolls down, the navbar hides, and when scrolls up, it comes back.
+
+also the footer, class="hud" , make it more sleek 
